@@ -1,0 +1,9 @@
+header {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+body{
+  margin-left: 10px;
+  background-color: aliceblue;
+  
+}
