@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react"
 import searchIcon from "./search.svg"
 import MovieCard from "./MovieCard"
 
-let APIKey = 'http://www.omdbapi.com/?i=tt3896198&apikey=e213675b'
+let APIKey = 'https://www.omdbapi.com/?i=tt3896198&apikey=e213675b'
 
 const App = () => {
   let [movies, setMovies] = useState([])
@@ -53,6 +53,8 @@ const App = () => {
     </div>
   )
 } 
+
+
 export default App
 
 
