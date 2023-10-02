@@ -1,11 +1,8 @@
 import { useState } from 'react'
-let data = [
-  { id: 121, name: `Aniede`, email: `ndu@gmail.com`, password: `hello` },
-]
 
 const FormOneState = () => {
   let [user, setUser] = useState({ name: ``, email: ``, password: `` })
-  let [users, setUsers] = useState(data)
+  let [users, setUsers] = useState([])
 
   const handleChange = (e) => {
     let id = Date.now()
